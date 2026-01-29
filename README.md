@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lyria Playground
 
-## Getting Started
+Lyria Playground is a powerful interface for interacting with Lyria's audio generation capabilities. It provides a real-time, interactive environment to generate, play back, and export high-quality audio streams.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Real-time Audio Streaming**: Low-latency audio playback using Web Audio API and Audio Worklets.
+- **Dynamic Visualizations**: Live waveform and frequency analysis of the audio stream.
+- **Master Control Center**: Granular control over volume, playback, and session management.
+- **Audio Export**: Export captured audio segments as high-quality WAV files.
+- **Session History**: Track and replay generated audio segments from the current session.
+- **Premium UI**: Modern, glassmorphic design system for a superior user experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: [Next.js 15+](https://nextjs.org/)
+- **Styling**: Vanilla CSS with modern Design Tokens
+- **Audio Engine**: Web Audio SDK & custom Audio Worklets
+- **Visuals**: Canvas-based real-time visualizers
+- **Icons**: Lucide React
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Getting Started
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js 18.x or later
+- npm or yarn
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TheCodePrism/lyria-playground.git
+   cd lyria-playground
+   ```
 
-## Deploy on Vercel
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
